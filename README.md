@@ -1,38 +1,58 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Profile Card Latoya
 
-## Creating a project
+## Inhoudsopgave
 
-If you're seeing this, you've probably already done this step. Congrats!
+  * [Beschrijving](#beschrijving)
+  * [Gebruik](#gebruik)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Beschrijving
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+In deze repository ben ik gaan werken aan mijn profile card. Het is gemaakt met gebruik van Sveltekit. Deze repository laat mij wennen aan werken met sveltekit. Ik heb mijn profile card gemaakt in de stijl van een gameboy. Ik heb gebruik gemaakt van Javascript om een klein spelletje te implementeren.
 
-## Developing
+Link naar website:
+https://your-tribe-for-life-profile-card-lemon.vercel.app
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Gebruik
 
-```bash
-npm run dev
+Je komt terecht op de main page waarbij je mijn naam ziet. Hierbij kan je navigeren naar het spel. Eenmaal bij het spel kan je deze spelen door gebruik te maken van de gameboy pijltjes. Zodra je gewonnen hebt komt hierna een succes message.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+## Kenmerken
+Gebruikt in dit project:
 
-To create a production version of your app:
+🚀 HTML - De basis van de gameboy is gemaakt met HTML
 
-```bash
-npm run build
-```
+🧰 Svelte - Ik gebruik diverse elementen en componenten 
 
-You can preview the production build with `npm run preview`.
+🔩 CSS - Gebruikt voor de styling.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+🗳️ JS - Hiermee maak ik het spel werkend.
+
+
+
+## Installatie
+Hoe kan je dit project gebruiken/bewerken?
+
+Volg onderstaande stappen om zelf aan deze code te werken:
+
+1. Installeer NodeJs op het apparaat;
+2. Fork/clone deze via Github(desktop);
+3. Open het met VScode of een andere editor;
+4. Installeer NPM met deze regel in de terminal: ```npm install```
+5. Gebruik ```npm run dev``` in de terminal;
+6. Gebruik de localhost port die is meegegeven en je kan aan de slag
+
+## Bronnen
+
+* https://docs.directus.io/blog/getting-started-directus-sveltekit.html
+* https://kit.svelte.dev/
+* https://learn.svelte.dev/tutorial/introducing-sveltekit
+
+## Licentie
+
+This project is licensed under the terms of the [MIT license](./LICENSE).
